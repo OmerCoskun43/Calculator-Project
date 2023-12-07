@@ -1,0 +1,52 @@
+body {
+  background-color: antiquewhite;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px black;
+}
+
+.row {
+  margin-top: 3rem;
+  width: 40%;
+
+  /* gap: 10px; */
+}
+
+.cols {
+  border: 1px solid black;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(109, 107, 107);
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 1px 4px 10px 5px rgb(16, 15, 15);
+}
+
+.cols:hover {
+  background-color: rgb(157, 153, 153);
+}
+
+.cols:active {
+  transform: scale(0.98);
+}
+.col-12 {
+  background-color: #ffffff;
+  height: 6rem;
+  color: black;
+}
+
+.col-12:hover {
+  background-color: white;
+}
